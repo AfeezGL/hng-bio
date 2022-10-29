@@ -1,0 +1,11 @@
+{
+  "name": "hngbio",
+  "version": "1.0.0",
+  "description": "HNG9 backend stage 1 task, bio api.",
+  "main": "index.js",
+  "author": "Afeez Lawal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
