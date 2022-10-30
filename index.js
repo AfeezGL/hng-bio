@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 const bio = {
-  slackUsername: "Afeez",
+  slackUsername: "afeezlg",
   backend: true,
   age: 24,
   bio: "Hi, I'm Afeez and I build amazing stuff on the web by converting ideas from pixels to pixel perfect, scalable web applications.",
