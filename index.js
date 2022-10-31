@@ -15,6 +15,11 @@ app.get("/", (req, res) => {
   res.json(bio);
 });
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Listening on port ${port}`);
+});
+
+server.setTimeout(10000, (socket) => {
+  console.log("Timeout.");
+  socket.destroy();
 });
